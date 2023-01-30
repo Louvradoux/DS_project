@@ -11,3 +11,4 @@ print('JSON keys are = ', json_object.keys())
 df = pd.DataFrame(json_object.get('results'), columns = ['Results'])
 
 df.head(5)
+df.info()
