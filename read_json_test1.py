@@ -10,4 +10,4 @@ with open('test_obs.json', 'r') as openfile:
 print('JSON keys are = ', json_object.keys())
 df = pd.DataFrame(json_object.get('results'), columns = ['Results'])
 
-df
+df.head(5)
